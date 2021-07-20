@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/work-731198__340.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    background-color:azure;
+    padding: 14px;
+}
+ ul{ margin: 0;
+    display:flex;
+    justify-content: flex-end;
+    
+} 
+li{
+    list-style-type: none;
+    margin-left: 50px;
+    
+    background-color: transparent;
+    
+}
+#logo{
+    flex-basis: 80%;
+    font-weight: bold;
+    font-size: large;
+}
+ section{
+     
+     height: 40vh;
+  position: relative;
+  left:200px;
+  top: 250px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+p{
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+button{
+    position:absolute;
+    top: 70%;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
